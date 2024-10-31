@@ -28,5 +28,18 @@ number.forEach(element => {
 });
 // or it can be written in this way to too
 number.forEach(function(element){
-    console.log(element+100);
+    console.log('Adding 100 to each element = ',element+100);
 })
+
+
+// some function practice by my own
+inc = function(ele){
+    let result=ele*100;
+    return result;
+
+}
+console.log('4 into 100 = ',inc(4));
+
+
+
+
