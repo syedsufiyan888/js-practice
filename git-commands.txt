@@ -1,0 +1,10 @@
+git init
+git add .
+(👇just connects to repo which is manually created in github.com)
+1.git remote add origin git@github.com:username/repository.git
+    git push
+(👇creating repo from terminal(CLI already installed) gh auth is needed for the first time only)
+2.gh auth login
+    gh --version 👈for checking the installation
+    gh repo create js-practice --public -s.
+    git push --set-upstream origin master
