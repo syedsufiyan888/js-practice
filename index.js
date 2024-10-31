@@ -20,3 +20,13 @@ console.log(--b)
 for(var i=1;i<=5;i++){
     console.log('Hello World')
 }
+
+// 2.foreach used with arrays...
+let number=[1,2,3,4,5]
+number.forEach(element => {
+   console.log(element*2)
+});
+// or it can be written in this way to too
+number.forEach(function(element){
+    console.log(element+100);
+})
