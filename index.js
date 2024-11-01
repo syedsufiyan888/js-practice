@@ -77,6 +77,14 @@ console.log(myes());
 const tname = 'John Banega Don';
 console.log(`Kon banega don: ${tname}`);
 
+//foreach in array
+var forarray = [5,6,7,8,9,];
+forarray.forEach(element => {
+    var sum = element+sum;
+    return sum;
+});
+
+
 
 
 
