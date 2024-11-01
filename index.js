@@ -42,5 +42,50 @@ console.log('4 into 100 = ',inc(4));
 
 console.log('__________________________')
 
+// array
+var myarray =['apple','banana','orange'];
+console.log(myarray[1]);
+
+// object
+var myob = {
+    name:'syed',
+    age:25,
+    city:'hyderabad',
+    display:function(){
+        console.log('Heloo world')
+    }
+}
+console.log(myob)
+console.log('__________________________')
+
+//ES6
+
+//1.let and const 
+/*function myes(al){
+    let al=al+10; //the let declaration is only limited inside the function
+    console.log(al);
+}
+*/
+// myes(5)
+
+//arrow function
+  //fn-name = function => return-what
+    myes = () => 'This is Arrow Function';
+console.log(myes());
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
