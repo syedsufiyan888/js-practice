@@ -73,6 +73,10 @@ console.log('__________________________')
     myes = () => 'This is Arrow Function';
 console.log(myes());
 
+//template literals
+const tname = 'John Banega Don';
+console.log(`Kon banega don: ${tname}`);
+
 
 
 
