@@ -40,6 +40,7 @@ inc = function(ele){
 }
 console.log('4 into 100 = ',inc(4));
 
+console.log('__________________________')
 
 
 
